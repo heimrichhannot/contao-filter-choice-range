@@ -1,0 +1,7 @@
+huh:
+  encore:
+    entries:
+      - { name: contao-filter-choice-range-bundle, file: "vendor/heimrichhannot/contao-filter-choice-range-bundle/src/Resources/assets/js/contao-filter-choice-range-bundle.js"}
+    legacy:
+      js:
+        - contao-filter-choice-range-bundle

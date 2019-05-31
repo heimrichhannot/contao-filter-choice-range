@@ -1,0 +1,15 @@
+{
+  "name": "@hundh/contao-filter-choice-range-bundle",
+  "version": "1.0.0",
+  "author": "Heimrich & Hannot GmbH <digitales@heimrich-hannot.de>",
+  "license": "LGPL-3.0-or-later",
+  "dependencies": {
+    "@hundh/contao-filter-choice-range-bundle": "^1.0",
+    "@hundh/contao-filter-bundle": "^1.0",
+    "nouislider": "^13.1.5"
+  },
+  "scripts": {
+    "build-dev": "yarn encore dev",
+    "build-production": "yarn encore production"
+  }
+}

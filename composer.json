@@ -1,0 +1,23 @@
+{
+  "name": "heimrichhannot/contao-filter-choice-range-bundle",
+  "type": "contao-bundle",
+  "description": "Extension for heimrichhannot/contao-filter-bundle that extends choice field with range appearance",
+  "license": "LGPL-3.0-or-later",
+  "require": {
+    "php": "^7.1",
+    "contao/core-bundle": "^4.4",
+    "heimrichhannot/contao-filter-bundle": "^1.0-beta"
+  },
+  "autoload": {
+    "psr-4": {
+      "HeimrichHannot\\ContaoFilterChoiceRangeBundle\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "extra": {
+    "contao-manager-plugin": "HeimrichHannot\\ContaoFilterChoiceRangeBundle\\ContaoManager\\Plugin",
+    "foxy": true
+  }
+}
